@@ -1,0 +1,33 @@
+@keyframes blackFade {
+  from {
+    /* background-color:  black; */
+    transform: translateY(0vh);
+  }
+  to {
+    /* background-color: transparent ; */
+    transform: translateY(100vh);
+  }
+}
+
+.black-bg {
+  background-color:  black;
+  animation: blackFade 2s forwards; /* 2 seconds duration */
+}
+
+
+@keyframes blackFade {
+  from {
+    /* background-color:  black; */
+    transform: translateY(0vh);
+  }
+  to {
+    /* background-color: transparent ; */
+    transform: translateY(100vh);
+  }
+}
+
+.black-bg {
+  background-color:  black;
+  animation: blackFade 2s forwards; /* 2 seconds duration */
+}
+
