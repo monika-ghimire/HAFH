@@ -16,7 +16,7 @@ const HafhPage = () => {
       chnageroute
     }, 3000);
 
-    // Clear the timeout to avoid navigation after the component unmounts
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -27,7 +27,13 @@ const HafhPage = () => {
         id="backgroundSection"
         className="h-screen flex items-center justify-center bg-black"
       >
-        <h1 className="text-white text-3xl">HAFH</h1>
+        <h1 className="text-white text-3xl"
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        >HAFH</h1>
+        <div  className='layer'></div>
+
       </section>
     </>
   );

@@ -28,6 +28,15 @@
 
 .black-bg {
   background-color:  black;
-  animation: blackFade 2s forwards; /* 2 seconds duration */
+  animation: blackFade 2s forwards;
 }
 
+
+
+.layer{
+  position: absolute;
+  background: black;
+  height: 92px;
+  width: 114px;
+  margin-top: 9rem;
+}
