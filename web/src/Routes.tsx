@@ -12,6 +12,7 @@ import { Router, Route } from '@redwoodjs/router'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/img-gaviable" page={ImgGaviablePage} name="imgGaviable" />
       <Route path="/" page={HAFHPage} name="hafh" />
       <Route path="/landing" page={LandingPage} name="landing" />
       <Route notfound page={NotFoundPage} />

@@ -6,7 +6,7 @@ import './style.css'
 
 const TopNavBar = () => {
   return (
-    <section className='p-8'>
+    <section className='p-8' data-aos="fade-up"  data-aos-duration="500">
       <div className='flex justify-between items-center'>
         <h1 className='text-xl tracking-wide'>HAFH</h1>
 

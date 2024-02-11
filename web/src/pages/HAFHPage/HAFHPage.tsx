@@ -30,7 +30,7 @@ const HafhPage = () => {
         <h1 className="text-white text-3xl"
         data-aos="fade-up"
         data-aos-delay="0"
-        data-aos-duration="1000"
+        data-aos-duration="3000"
         >HAFH</h1>
         <div  className='layer'></div>
 
